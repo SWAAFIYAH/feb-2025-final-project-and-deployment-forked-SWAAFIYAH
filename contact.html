@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - MyWebSpace</title>
+  <title>Contact - Jalum's Baby Clothes</title>
   <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Jalum's Baby Clothes</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="contact-section full">
+    <h2>Contact Us</h2>
     <form id="contactForm">
       <input type="text" id="name" placeholder="Your Name" required/>
       <input type="email" id="email" placeholder="Your Email" required/>
@@ -25,6 +28,10 @@
     </form>
     <p id="formMessage"></p>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Jalum's Baby Clothes</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
