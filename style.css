@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #007bff;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 2em auto;
+}
+form input, form textarea, form button {
+  margin: 0.5em 0;
+  padding: 0.8em;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
